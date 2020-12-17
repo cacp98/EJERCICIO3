@@ -1,0 +1,37 @@
+<!DOCTYPE html> <!-- Dice que se trabaja con HTML-->
+<html lang="es"> <!--Representa que es HTML.-->
+<head> <!-Riene datos acerca del trabajo.-->
+    <title>Sitio en Github y Microsoft Azure</title> <!--Define el título del documento-->
+    <meta charset="utf-8"> <!--Define los metadatos que no pueden ser definidos usando otro elemento HTML.-->
+    <meta name="description" content="Este es un documento HTML5">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="misestilos.css"> <!--Podemos linkear JavaScript y CSS externos con el documento HTML actual.-->
+    </head>
+<body> <!--Significa que el contenido principal de un documento HTML.-->
+    <header> <!--La cabecera de una página o sección. -->
+         Este es el título
+    </header>
+    <nav> <!--contiene enlaces de navegación-->
+        Principal | Fotos | Videos | Contacto
+    </nav>
+    <main> <!--Define el contenido  importante en el documento. -->
+        <section><!--Define una sección en un documento.-->
+            <article><!--contenido autónomo-->
+                 Este es el texto de mi primer artículo
+            </article>
+
+            <article>
+                Este es el texto de mi segundo artículo
+            </article>
+        </section> 
+
+        <aside><!--Da algunos contenidos vagamente relacionados con el resto del contenido de la página-->
+             Cita del artículo uno
+             Cita del artículo dos
+        </aside>
+    </main>
+    <footer><!-- Da el pie de pagina. -->
+        &copy; Derechos Reservados 2016
+    </footer>
+</body>
+</html> 
